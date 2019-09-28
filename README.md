@@ -112,7 +112,7 @@ What is the extension for a Photo Shop document?
 Search online if you don't know.
 I'd recommend trying what your gut tells you to try - chances are, you'll be correct.
 
-OK, great, visit [www.hackertest.net/images/phat.psd](www.hackertest.net/images/phat.psd).
+OK, great, visit [http://www.hackertest.net/images/phat.psd](http://www.hackertest.net/images/phat.psd).
 You'll need to download and open the image in a program like GIMP where you can manipulate the layers....
 If you strip off (i.e., hide) all the layers, then add them back one by one, you'll encounter a layer that has the login/password:
 `zadmin / stebbins`
@@ -330,9 +330,9 @@ Going to this link directly doesn't seem right.
 At this point I leaned on the "hints" from the first step.
 
 To expand, I changed the domain (from `streetkorner` to `hackertest`) and added `22332` to the end.
-In the end it led me to this address: [www.hackertest.net/gb22332](www.hackertest.net/gb22332).
+In the end it led me to this address: [http://www.hackertest.net/gb22332](http://www.hackertest.net/gb22332).
 
-Now we see something about a "505 Not Found" error - some error when we "hit" [www.hackertest.net/gb22332/login.php](www.hackertest.net/gb22332/login.php),
+Now we see something about a "505 Not Found" error - same error when we "hit" [http://www.hackertest.net/gb22332/login.php](http://www.hackertest.net/gb22332/login.php),
 even though we didn't try to go to a `login.php`.
 This isn't nothing...
 
